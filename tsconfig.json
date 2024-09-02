@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "lib": ["es6"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    /* Modules */
+    "module": "commonjs",
+    "rootDir": "src",
+    "baseUrl": "./",
+
+    "typeRoots": ["@types", "./node_modules/@types"],
+    "resolveJsonModule": true,
+
+    "outDir": "build",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+    /* Type Checking */
+    "strict": true /* Enable all strict type-checking options. */,
+    "noImplicitAny": true /* Enable error reporting for expressions and declarations with an implied 'any' type. */,
+    "strictPropertyInitialization": false /* Check for class properties that are declared but not set in the constructor. */,
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */
+  }
+}
